@@ -1,0 +1,123 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+#logo  {
+  font-size: 1.3em;
+  padding:2px 5px;
+  margin: 30px auto;
+  border: 2px solid;
+  width: 80px;
+  color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: normal;
+}
+.nav-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    color: white;
+    width: 100%;
+    transition: width .3s;
+}
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: white;
+}
+ .nav-link:not(:last-child){
+  margin-right:35px;
+}
+.navbar-nav {
+  margin:20px  auto 35px auto;
+  text-align: center;
+}
+.welc {
+  text-align: center;
+  margin: 20px 0px 15px 0px;
+  color: white;
+}
+.header-section {
+  margin: 0px;
+  padding:0px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(218,34,255,0.9), rgb(151,51,238,0.9)),url(../images/bus.jpg);
+  background: -webkit-linear-gradient(to right, rgb(218,34,255,0.9), rgb(151,51,238,0.9)),url(../images/bus.jpg);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height:100vh;
+
+}
+
+.we-are {
+padding-bottom: 80px ;
+width: 100%;
+background-color:#414040 ;
+/* transform: skewY(-2.5deg);
+transform-origin: 100%;  */
+}
+/* .we-are-content{
+  transform: skewY(2.5deg);
+  transform-origin: 100%;
+} */
+.feature {
+  color:white;
+
+}
+.feature p {
+  font-size: 16.687px;
+  font-family: "Raleway";
+  color: #c4c4c4;
+  line-height: 1.429;
+  text-align: left;
+  -moz-transform: matrix( 0.83996539792388,0,0,0.83898305084746,0,0);
+  -webkit-transform: matrix( 0.83996539792388,0,0,0.83898305084746,0,0);
+  -ms-transform: matrix( 0.83996539792388,0,0,0.83898305084746,0,0);
+  z-index: 47;
+}
+
+.feature h3 {
+  font-size:20px; color: white;
+  text-align: center;
+  margin: 20px 0px;
+}
+.feature img {
+    display:block;
+    margin:auto;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.mobile-app{
+  margin-top:-35px;
+  height:800px;
+  background: #DA22FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,-225deg, #FFFEFF 0%, #D7FFFE 100%);  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+#phone {
+    display:block;
+    margin:65px auto;
+}
+#app {
+  display:block;
+
+  margin:0px auto;
+}
+
+#play {
+  display:block;
+  margin:0px auto;
+}
